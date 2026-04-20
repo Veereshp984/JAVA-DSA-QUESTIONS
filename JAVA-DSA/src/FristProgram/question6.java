@@ -2,10 +2,10 @@ package FristProgram;
 
 import java.util.Scanner;
 
-public class Greetmsg {
+public class question6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
-        System.out.println("Good Morning " + input);
+        float currency = sc.nextInt();
+        System.out.println(currency / 93);
     }
 }
